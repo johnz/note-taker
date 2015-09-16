@@ -8,7 +8,7 @@ var Route = Router.Route;
 
 module.exports = (
     <Route name="app" path="/" handler={Main}>
-        <Route name="profile" path="/profile/:username" handler={Profile} />
+        <Route name="profile page" path="/profile/:username" handler={Profile} />
         <DefaultRoute handler={Home} />
     </Route>
 );
